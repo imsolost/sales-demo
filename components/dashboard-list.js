@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FrameChildRoot = styled.div`
+const StyledDashboard = styled.div`
   position: absolute;
   top: 50px;
   background-color: #f5f5f5;
@@ -9,9 +9,9 @@ const FrameChildRoot = styled.div`
 `;
 const DashboardList = () => {
   return (
-    <FrameChildRoot>
+    <StyledDashboard>
 
-    </FrameChildRoot>
+    </StyledDashboard>
   );
 };
 

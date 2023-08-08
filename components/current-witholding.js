@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RectangleParentRoot = styled.div`
+const StyledContainer = styled.div`
   position: absolute;
   top: 100px;
   left: 600px;
@@ -10,12 +10,11 @@ const RectangleParentRoot = styled.div`
   width: 300px;
   height: 150px;
   background-color: #f5f5f5;
-
 `;
 const CurrentWitholding = () => {
   return (
-    <RectangleParentRoot>
-    </RectangleParentRoot>
+    <StyledContainer>
+    </StyledContainer>
   );
 };
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import CustomButton from "./custom-button";
 
-const FrameChildRoot = styled.div`
+const StyledContainer = styled.div`
   position: absolute;
   top: 100px;
   left: 250px;
@@ -14,9 +14,9 @@ const FrameChildRoot = styled.div`
 `;
 const CompleteFormContainer = () => {
   return (
-    <FrameChildRoot>
+    <StyledContainer>
         <CustomButton />
-    </FrameChildRoot>
+    </StyledContainer>
   );
 };
 

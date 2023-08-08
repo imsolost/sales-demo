@@ -14,7 +14,7 @@ const StyledButton = styled.div`
 const CustomButton = () => {
   return (
     <StyledButton>
-        this is a button
+        button
     </StyledButton>
   );
 };

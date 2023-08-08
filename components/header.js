@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import CompanyName from "./company-name";
+import CurrentUser from "./current-user";
 
 const StyledHeader = styled.div`
   position: absolute;
@@ -8,7 +10,12 @@ const StyledHeader = styled.div`
   height: 50px;
 `;
 const Header = () => {
-  return <StyledHeader />;
+  return (
+    <StyledHeader>
+      <CompanyName />
+      <CurrentUser />
+    </StyledHeader>
+  );
 };
 
 export default Header;
