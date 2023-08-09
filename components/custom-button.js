@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const StyledButton = styled.div`
   position: relative;
@@ -14,7 +15,9 @@ const StyledButton = styled.div`
 const CustomButton = () => {
   return (
     <StyledButton>
-        button
+      <Link href="/form-page">
+        Start
+      </Link>
     </StyledButton>
   );
 };
