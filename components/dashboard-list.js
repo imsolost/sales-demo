@@ -10,7 +10,7 @@ const StyledDashboard = styled.div`
 const DashboardList = () => {
   return (
     <StyledDashboard>
-
+      Dashboard
     </StyledDashboard>
   );
 };

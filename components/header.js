@@ -8,6 +8,8 @@ const StyledHeader = styled.div`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   width: 100vw;
   height: 50px;
+  display: flex;
+  justify-content: space-between;
 `;
 const Header = () => {
   return (

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledButton = styled.div`
   position: relative;
-  top: 100px;
+  top: 80px;
   left: 100px;
   border-radius: 5px;
   border: 1px solid #e0c200;
