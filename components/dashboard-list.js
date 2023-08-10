@@ -25,7 +25,7 @@ const listImages = ['layout', 'inbox', 'mail', 'star', 'filetext', 'grid', 'sett
 
 const DashboardList = () => {
   const listItems = listImages.map((image, id) => 
-      <ListItem>
+      <ListItem key={id}>
         <img alt={image} src={`/${image}.svg`}/>
         <GreyShape />
       </ListItem>
