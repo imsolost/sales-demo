@@ -6,7 +6,7 @@ const StyledContainer = styled.div`
 const CurrentUser = () => {
   return (
     <StyledContainer>
-        Mark Daniels
+        Sally Jones
     </StyledContainer>
   );
 };
