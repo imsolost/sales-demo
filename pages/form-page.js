@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { useEffect, useState } from "react";
+import { createClient } from "@supabase/supabase-js";
 
 import DashboardList from "../components/dashboard-list";
 import Header from "../components/header";
@@ -37,6 +39,24 @@ const dParam = JSON.stringify(exampleData)
 const url = buildURL(formUrl, dParam)
 
 const FormPage = () => {
+  // NOTE supabase not currently in use
+  const client = createClient(process.env.NEXT_PUBLIC_URL, process.env.NEXT_PUBLIC_KEY)
+  const [users, setUsers] = useState([])
+
+  useEffect(() => {
+    const fetchUsers = async () => {
+      const { data, error } = await client
+        .from('user_info')
+        .select()
+        .eq('id', '1')
+
+      console.log([data]);
+      setUsers([data])
+    }
+
+    fetchUsers()
+  }, [])
+
   return (
     <div>
       <Header />
