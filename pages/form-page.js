@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-import DashboardList from "../components/dashboard-list";
+import DashboardList from "../components/dashboard";
 import Header from "../components/header";
 import Iframe from "../components/iframe";
 

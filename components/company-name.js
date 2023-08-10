@@ -8,7 +8,7 @@ const CompanyName = () => {
   return (
     <StyledContainer>
       <Link href="/">
-        BrightPath HR
+        <img alt="logo name" src="/brightpath-hr-logo-1@2x.png" height="40px"/>
       </Link>
     </StyledContainer>
   );

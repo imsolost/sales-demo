@@ -2,8 +2,8 @@ import styled from "styled-components";
 import Link from "next/link";
 
 const StyledButton = styled.div`
-  position: relative;
-  top: 80px;
+  position: absolute;
+  top: 100px;
   left: 100px;
   border-radius: 5px;
   border: 1px solid #e0c200;

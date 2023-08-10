@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import DashboardList from "../components/dashboard-list";
+import DashboardList from "../components/dashboard";
 import Header from "../components/header";
 import CurrentWitholding from "../components/current-witholding";
 import CompleteFormContainer from "../components/complete-form-container";

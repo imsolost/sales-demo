@@ -12,10 +12,22 @@ const StyledContainer = styled.div`
   width: 300px;
   height: 150px;
 `;
+
+const FileTextImage = styled.img`
+  position: absolute;
+  top: 05px;
+  right: 10px;
+  width: 40px;
+  overflow: hidden;
+`;
 const CompleteFormContainer = () => {
   return (
     <StyledContainer>
         Complete Form Container
+        <FileTextImage alt="filetext" src="/filetext.svg" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+        </p>
         <CustomButton />
     </StyledContainer>
   );

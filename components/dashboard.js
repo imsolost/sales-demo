@@ -33,9 +33,10 @@ const DashboardList = () => {
 
   return (
     <StyledDashboard>
-      <img alt="" src="/home.svg"/>
+      <img alt="home" src="/home.svg"/>
       Dashboard
-      {listItems}      
+      {listItems}
+      <img alt="logo" src="/brightpath-hr-logo-2@2x.png" height="30px"/>      
     </StyledDashboard>
   );
 };
