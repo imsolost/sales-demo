@@ -5,7 +5,7 @@ const StyledIframe = styled.div`
   top: 100px;
   left: 250px;
   box-sizing: border-box;
-`;
+`
 
 const formUrl = "https://app.useanvil.com/form/anvil-53/irs-w4"
 const buildURL = (path, dParam) => `${path}?d=${encodeURIComponent(dParam)}`

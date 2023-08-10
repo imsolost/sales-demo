@@ -15,7 +15,6 @@ const FormPage = () => {
         .from('users')
         .select()
         .eq('id', '1')
-
       setUser(data[0])      
     }
     fetchUsers()

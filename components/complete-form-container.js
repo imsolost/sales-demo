@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
   box-sizing: border-box;
   width: 300px;
   height: 150px;
-`;
+`
 
 const FileTextImage = styled.img`
   position: absolute;
@@ -19,7 +19,8 @@ const FileTextImage = styled.img`
   right: 10px;
   width: 40px;
   overflow: hidden;
-`;
+`
+
 const CompleteFormContainer = () => {
   return (
     <StyledContainer>

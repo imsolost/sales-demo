@@ -11,7 +11,8 @@ const StyledButton = styled.div`
   width: 100px;
   height: 30px;
   background-color: #f5f5f5;
-`;
+`
+
 const CustomButton = () => {
   return (
     <StyledButton>

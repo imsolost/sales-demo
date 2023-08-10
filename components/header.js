@@ -10,7 +10,8 @@ const StyledHeader = styled.div`
   height: 50px;
   display: flex;
   justify-content: space-between;
-`;
+`
+
 const Header = () => {
   return (
     <StyledHeader>

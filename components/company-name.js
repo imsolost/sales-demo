@@ -3,7 +3,8 @@ import Link from "next/link";
 
 const StyledContainer = styled.div`
 
-`;
+`
+
 const CompanyName = () => {
   return (
     <StyledContainer>
