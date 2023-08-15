@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body,
+.forge-flow {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+#page-title {
+  margin-bottom: 30px;
+}
+
+#page-title::after {
+  display: none;
+}
+
+.form-group .ant-form-item-label {
+  padding-bottom: 8px;
+}
+
+.form-group label > span {
+  color: #7B858E;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input {
+  border: 1px solid #DCDDE2;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+button.circle-icon-button-container[disabled] .button-circle {
+  background: transparent !important;
+}
+
+.forge-flow > div:last-child {
+  background: #f8f8f8;
+  box-shadow: none;
+}
+
+body .ant-input:hover,
+body .ant-input:focus,
+body .ant-input:active,
+body .ant-form-item-has-error .ant-input:hover,
+body .ant-form-item-has-error .ant-input:active,
+body .ant-form-item-has-error .ant-input:focus {
+  border-right-width: 1px !important;
+}
+
+.form-group input:focus {
+  border: 1px solid #4a4dcd;
+  background-color: #F5F7FE;
+}
+
+.ant-btn {
+  border-radius: 5px;
+}
+
+.ant-btn.ant-btn-cta,
+.ant-btn.ant-btn-cta:hover,
+.ant-btn.ant-btn-cta:active {
+  background: #3740F5;
+  color: white;
+}
+
+.ant-btn.ant-btn-link,
+.ant-btn.ant-btn-link:hover,
+.ant-btn.ant-btn-link:active {
+  color: #3740F5;
+}
